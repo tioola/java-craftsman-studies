@@ -24,6 +24,11 @@ public class Product {
         return new Product(description, type, price, amount);
     }
 
+    //Here we are enforcing immutability
+    public Product applyNewPrice(BigDecimal newPrice){
+        return new Product(this.description, this.category,  newPrice, amount);
+    }
+
     public String getDescription() {
         return description;
     }

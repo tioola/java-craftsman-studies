@@ -1,14 +1,15 @@
-Start Cleaning up
+Level up Your code style
 ---
-01-Avoid Unnecessary comparisons
-02-Avoid Negations
-03-Return Boolean Expressions Directly
+01-Replace magic numbers with constants
+02-Favor Enums Over Integer Constants
+03-Favor For-Each Over For Loops
 04-Simplify Boolean Expressions
-05-Avoid NullPointerException in Conditionals
-06-Avoid switch Fallthough
-07-Always use Braces
-08-Ensure code Symmetry
-09-What have you Learned 
+05-Avoid Collection Modification During iteration
+06-Avoid Compute-Intensive Operations during iteration
+07-Group with new Lines
+08-Favor Format Over Concatenation
+09-Favor JAVA API Over DIY
+ 
 
 Quick Notes
 --- 
